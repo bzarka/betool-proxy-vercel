@@ -1,5 +1,8 @@
 import { Redis } from '@upstash/redis';
 
+// Lit automatiquement UPSTASH_REDIS_REST_URL et UPSTASH_REDIS_REST_TOKEN depuis les env vars Vercel
+const kv = Redis.fromEnv();
+
 const url = process.env.UPSTASH_REDIS_REST_URL;
 const token = process.env.UPSTASH_REDIS_REST_TOKEN;
 
