@@ -1,0 +1,7 @@
+[InternetShortcut]
+URL=https://github.com/bzarka/betool-proxy-vercel/blob/main/package.json
+{
+  "dependencies": {
+    "@upstash/redis": "^1.28.0"
+  }
+}
